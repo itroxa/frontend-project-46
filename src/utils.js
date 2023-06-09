@@ -6,4 +6,4 @@ const pathToFile = (file) => resolve(cwd(), file);
 
 const readFile = (file) => JSON.parse(readFileSync(pathToFile(file)), 'utf-8');
 
-export { readFile };
+export default readFile;

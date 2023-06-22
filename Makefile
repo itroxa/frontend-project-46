@@ -8,3 +8,6 @@ link:
 
 lint:
 	npx eslint .
+
+test:
+	npx jest
